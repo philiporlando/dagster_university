@@ -23,4 +23,4 @@ data/**
 !data/**/*.gitkeep
 
 # And don't ignore this image used within README.md
-!./data/outputs/asset-graph.png
+!data/outputs/asset-graph.png
