@@ -1,0 +1,13 @@
+.env
+.env.*
+env.bak/
+.venv/
+venv/
+venv.bak/
+dagster_university/data/*
+tmp*/
+*.code-workspace
+**/__pycache__/*
+*.pyc
+
+!dagster_university/data/.gitkeep
