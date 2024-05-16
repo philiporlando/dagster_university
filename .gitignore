@@ -4,10 +4,23 @@ env.bak/
 .venv/
 venv/
 venv.bak/
-dagster_university/data/*
-tmp*/
+tmp*/*
 *.code-workspace
 **/__pycache__/*
 *.pyc
 
-!dagster_university/data/.gitkeep
+# Ignore egg-info directories
+*.egg-info/
+*.egg-info/*
+
+# Ignore all files in the data directory and its subdirectories
+data/**
+
+# But don't ignore directories
+!data/**/
+
+# And don't ignore .gitkeep files
+!data/**/*.gitkeep
+
+# And don't ignore this image used within README.md
+!./data/outputs/asset-graph.png

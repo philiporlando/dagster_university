@@ -2,7 +2,7 @@
 
 This is a [Dagster](https://dagster.io/) project made to accompany Dagster University coursework.
 
-![](./data/outputs/asset-graph.PNG)
+![](./data/outputs/asset-graph.png)
 
 ## Getting started
 
